@@ -1,79 +1,78 @@
 # Budget-Planner-for-Students-
 A lightweight budget planner that lets students enter income and expenses, see real-time balances, visualize monthly spending, set goals, and export a monthly report.
-Problem Statement
-Many students struggle to manage their monthly allowances or income, often leading to overspending and a lack of savings. Existing financial tools are often too complex or not tailored to student needs. There is a need for a simple, clear, and student-friendly solution to help track income and expenses, visualize spending habits, and encourage positive financial behavior.
 
-Objectives
-Enable students to log income and expenses by category (e.g., Food, Rent, Travel).
+## 📌 Problem Statement
+Many students struggle with managing their monthly allowance or pocket money due to a lack of structured financial planning. Overspending, untracked expenses, and poor savings habits often result in financial stress.  
+This project aims to provide a **simple yet effective budget planning system** that allows students to **plan, track, and analyse** their monthly income and expenses in order to build better financial discipline.
 
-Provide real-time balance updates and automatic warnings for overspending.
+---
 
-Offer monthly summaries with visual charts for income, expenses, and savings.
+## 🎯 Objectives
+- Allow students to **input their monthly income and expenses**  
+- Categorise expenses (e.g., food, rent, travel, entertainment, study materials)  
+- Track **remaining balance and savings** after expenses  
+- Provide **visual insights** (e.g., pie chart, bar chart) into spending patterns  
+- Encourage students to **set financial goals** and stay within budget  
 
-Allow setting of financial goals and category limits.
+---
 
-Support export of monthly reports (CSV/PDF) for easy sharing or record-keeping.
+## ⚙️ Features
+- Add and update income/expenses  
+- Categorised expense tracking  
+- Monthly savings and balance calculation  
+- Graphical analysis of spending  
+- Simple and user-friendly interface  
 
-Facilitate data-driven insights using core KPIs, trend analysis, and basic forecasting.
+---
 
-Features
-User-friendly interface for transaction entry
+## 🚀 Instructions for Running the Analysis
 
-Real-time balance and overspending alerts
+### 1. Clone the Repository
+```bash
+git clone https://github.com/your-username/budget-planner-students.git
+cd budget-planner-students
 
-Category-wise expense analysis with pie and bar charts
+2. Install Dependencies
 
-Goal setting for savings and spending categories
+Make sure you have Python 3 installed. Then run:
 
-Exportable reports in CSV and PDF formats
-
-Simple data analysis and forecasting
-
-How to Use the Student Budget Planner
-1. Install and Set Up
-Clone the repository:
-
-text
 pip install -r requirements.txt
-2. Add Your Data
-Option 1: In the App or Notebook
 
-Open the app with python app.py or start the Jupyter notebook with jupyter notebook StudentBudgetAnalysis.ipynb.
+3. Run the Program
+python main.py
 
-Use the provided forms or cells to enter your income and expenses for each month. Select categories such as Food, Rent, Travel, etc.
+4. Input Data
 
-Option 2: In the CSV File
+Enter your monthly income
 
-Open transactions.csv in a text editor or spreadsheet program.
+Add expenses under different categories
 
-Each row should include: Date, Category, Amount, Type (Income/Expense).
+The program will calculate balance and savings automatically
 
-3. Track Finances
-Balance and Summary
+5. View Analysis
 
-The dashboard or notebook will automatically show your total income, expenses, and savings for the month.
+The system will generate summary tables and charts to help you understand your spending habits
 
-Visualize Spending
+📊 Example Output
 
-Review clear pie and bar charts for category-wise analysis and spending trends.
+Summary Table: Income, Total Expenses, Balance, Savings
 
-Set Goals
+Charts: Pie chart of expenses by category, Line/Bar graph of spending trends
 
-Define savings targets and category spending limits through the app or notebook fields.
+🛠️ Tech Stack
 
-4. Get Notifications and Alerts
-Overspending Alert
+Python 3
 
-The system will notify you in real time if you exceed your monthly budget or category limits.
+Pandas for data handling
 
-5. Export Reports
-Download your monthly financial report
+Matplotlib / Seaborn for visualisation
 
-Use the "Export" feature to save your budget summary in CSV or PDF format for your records.
+Tkinter / Streamlit (optional) for UI
 
-6. Customize
-Change spending categories or add new ones as needed.
+🤝 Contribution
 
-Adjust financial goals and limits to match your needs.
+Feel free to fork this repository, raise issues, or submit pull requests to improve features or add new functionalities.
 
-Analyze your monthly patterns to build better money habits.
+📄 License
+
+This project is licensed under the MIT License
